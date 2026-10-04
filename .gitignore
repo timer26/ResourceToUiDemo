@@ -1,0 +1,41 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Godot export / build output
+/export/
+/builds/
+
+# Mono / .NET build artifacts
+.mono/
+data_*/
+mono_crash.*.json
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userprefs
+
+# JetBrains Rider
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/shelf/
+.idea/**/contentModel.xml
+.idea/**/dictionaries/
+.idea/**/dataSources/
+.idea/**/dataSources.local.xml
+.idea/**/httpRequests/
+.idea/**/misc.xml
+.idea/**/modules.xml
+.idea/**/projectSettingsUpdater.xml
+*.sln.DotSettings.user
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+*~
